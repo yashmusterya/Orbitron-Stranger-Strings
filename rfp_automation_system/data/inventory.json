@@ -1,0 +1,37 @@
+[
+  {
+    "sku": "NB-PRO-14",
+    "name": "ProBook 14 G9",
+    "category": "Laptop",
+    "specifications": "Intel Core i7, 16GB RAM, 512GB SSD, 14-inch FHD, Windows 11 Pro",
+    "base_cost": 72500.00
+  },
+  {
+    "sku": "NB-ENT-15",
+    "name": "EliteBook 15 G10",
+    "category": "Laptop",
+    "specifications": "Intel Core i9, 32GB RAM, 1TB SSD, 15.6-inch 4K, Windows 11 Enterprise",
+    "base_cost": 125000.00
+  },
+  {
+    "sku": "SRV-RACK-2U",
+    "name": "PowerEdge R750",
+    "category": "Server",
+    "specifications": "Dual Xeon Gold, 128GB ECC RAM, 4x 4TB NVMe, 2U Rackmount",
+    "base_cost": 450000.00
+  },
+  {
+    "sku": "SW-OFF-ENT",
+    "name": "Office 365 Enterprise E3",
+    "category": "Software",
+    "specifications": "Annual Subscription, Cloud Services, Desktop Apps",
+    "base_cost": 21500.00
+  },
+  {
+    "sku": "NET-SW-48",
+    "name": "Catalyst 9200 48-Port",
+    "category": "Networking",
+    "specifications": "48x 1GbE PoE+, 4x 10GbE Uplink, Layer 3",
+    "base_cost": 185000.00
+  }
+]

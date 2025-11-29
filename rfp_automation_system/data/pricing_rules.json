@@ -1,0 +1,7 @@
+{
+    "standard_margin_percent": 20,
+    "software_margin_percent": 10,
+    "tax_rate_percent": 18,
+    "installation_fee_per_unit": 50.00,
+    "server_setup_fee": 500.00
+}

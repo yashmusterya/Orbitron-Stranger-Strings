@@ -1,0 +1,24 @@
+{
+  "final_response": {
+    "rfp_summary": {
+      "contract_id": "Not available",
+      "title": "RFP AI - Multi-Agent AI Platform for RFP Automation",
+      "authority": "Not available",
+      "category": "Not available",
+      "bid_dates": {
+        "start": "Not available",
+        "end": "Not available"
+      }
+    },
+    "technical_summary": {
+      "overall_match_percent": "0%",
+      "matched_skus": []
+    },
+    "pricing_summary": {
+      "total_cost": "0.00",
+      "currency": "INR",
+      "breakdown": []
+    },
+    "final_document_text": "# RFP Response: RFP AI - Multi-Agent AI Platform for RFP Automation\n**Contract ID:** Not available\n**Authority:** Not available\n**Date:** 2025-11-29\n\n## Executive Summary\nWe are pleased to submit our proposal. We have achieved a 0% technical match for your requirements.\n\n## Technical & Commercial Breakdown\n| Item | SKU | Qty | Unit Price | Total |\n|---|---|---|---|---|\n\n**Grand Total:** ₹0.00"
+  }
+}

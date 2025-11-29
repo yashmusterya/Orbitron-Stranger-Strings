@@ -1,0 +1,25 @@
+{
+    "contract_id": "TENDER-2025-001",
+    "title": "Supply of IT Equipment for Regional Office",
+    "description": "Request for proposal for the supply and delivery of high-performance laptops and rack servers for our new regional headquarters.",
+    "authority": "TechCorp Solutions Ltd.",
+    "publish_date": "2025-11-28",
+    "bid_deadline": "2025-12-15",
+    "items": [
+        {
+            "name": "High Performance Laptop",
+            "quantity": 50,
+            "specifications": "Intel i7 or equivalent, 16GB RAM, 512GB SSD, 14 inch screen"
+        },
+        {
+            "name": "Rack Server",
+            "quantity": 2,
+            "specifications": "Dual Processor, 128GB RAM, 4TB Storage, 2U Form Factor"
+        }
+    ],
+    "value": "Not Specified",
+    "eligibility": "Authorized distributors only",
+    "location": "Mumbai, India",
+    "delivery_terms": "Within 30 days of PO",
+    "other_notes": "Warranty support required for 3 years."
+}

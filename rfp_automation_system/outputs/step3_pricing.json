@@ -1,0 +1,57 @@
+{
+    "pricing_breakdown": [
+        {
+            "sku": "NB-PRO-14",
+            "description": "ProBook 14 G9 - Laptop",
+            "base_cost": 850.00,
+            "margin_percent": 20,
+            "unit_price_excl_tax": 1020.00,
+            "quantity": 50,
+            "subtotal": 51000.00,
+            "tax_rate": 18,
+            "tax_amount": 9180.00,
+            "total": 60180.00
+        },
+        {
+            "sku": "SRV-RACK-2U",
+            "description": "PowerEdge R750 - Server",
+            "base_cost": 4500.00,
+            "margin_percent": 20,
+            "unit_price_excl_tax": 5400.00,
+            "quantity": 2,
+            "subtotal": 10800.00,
+            "tax_rate": 18,
+            "tax_amount": 1944.00,
+            "total": 12744.00
+        },
+        {
+            "sku": "SERVICE-INSTALL",
+            "description": "Installation Fee (per unit)",
+            "base_cost": 0,
+            "margin_percent": 0,
+            "unit_price_excl_tax": 50.00,
+            "quantity": 52,
+            "subtotal": 2600.00,
+            "tax_rate": 18,
+            "tax_amount": 468.00,
+            "total": 3068.00
+        },
+        {
+            "sku": "SERVICE-SERVER-SETUP",
+            "description": "Server Setup Fee",
+            "base_cost": 0,
+            "margin_percent": 0,
+            "unit_price_excl_tax": 500.00,
+            "quantity": 2,
+            "subtotal": 1000.00,
+            "tax_rate": 18,
+            "tax_amount": 180.00,
+            "total": 1180.00
+        }
+    ],
+    "subtotal_excl_tax": 65400.00,
+    "total_tax": 11772.00,
+    "grand_total": 77172.00,
+    "currency": "USD",
+    "notes": "Pricing valid for 30 days. Includes standard 3-year warranty."
+}

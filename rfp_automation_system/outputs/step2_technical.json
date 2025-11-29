@@ -1,0 +1,21 @@
+{
+    "matched_skus": [
+        {
+            "rfp_item": "High Performance Laptop",
+            "sku": "NB-PRO-14",
+            "name": "ProBook 14 G9",
+            "match_score": 0.95,
+            "spec_match": "Exact match for i7, 16GB RAM, 512GB SSD. Screen size matches.",
+            "quantity_needed": 50
+        },
+        {
+            "rfp_item": "Rack Server",
+            "sku": "SRV-RACK-2U",
+            "name": "PowerEdge R750",
+            "match_score": 0.98,
+            "spec_match": "Exceeds specs: Dual Xeon (vs Dual Proc), 128GB RAM (Match), 4x4TB (Exceeds 4TB).",
+            "quantity_needed": 2
+        }
+    ],
+    "recommendation": "All items matched with high confidence. Proceed with standard inventory."
+}
