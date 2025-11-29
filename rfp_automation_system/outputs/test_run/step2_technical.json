@@ -1,6 +1,31 @@
 {
   "tech_match": {
-    "overall_match_percent": "0%",
-    "matched_skus": []
+    "overall_match_percent": "50%",
+    "matched_skus": [
+      {
+        "item": "Laptop",
+        "matched_sku": "NB-PRO-14",
+        "sku_name": "ProBook 14 G9",
+        "match_percent": "70%",
+        "quantity": 7
+      },
+      {
+        "item": "Cable",
+        "matched_sku": "Not available",
+        "match_percent": "0%"
+      },
+      {
+        "item": "Office 365",
+        "matched_sku": "SW-OFF-ENT",
+        "sku_name": "Office 365 Enterprise E3",
+        "match_percent": "90%",
+        "quantity": 3
+      },
+      {
+        "item": "Switch",
+        "matched_sku": "Not available",
+        "match_percent": "0%"
+      }
+    ]
   }
 }

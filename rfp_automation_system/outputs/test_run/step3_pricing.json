@@ -1,7 +1,26 @@
 {
   "pricing": {
-    "total_cost": "0.00",
+    "total_cost": "802341.00",
     "currency": "INR",
-    "breakdown": []
+    "breakdown": [
+      {
+        "sku": "NB-PRO-14",
+        "unit_cost": "72500.00",
+        "profit_margin": "14500.00",
+        "tax": "15660.00",
+        "final_unit_price": "102660.00",
+        "quantity": 7,
+        "line_total": "718620.00"
+      },
+      {
+        "sku": "SW-OFF-ENT",
+        "unit_cost": "21500.00",
+        "profit_margin": "2150.00",
+        "tax": "4257.00",
+        "final_unit_price": "27907.00",
+        "quantity": 3,
+        "line_total": "83721.00"
+      }
+    ]
   }
 }

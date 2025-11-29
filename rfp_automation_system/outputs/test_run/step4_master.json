@@ -1,24 +1,68 @@
 {
   "final_response": {
     "rfp_summary": {
-      "contract_id": "Not available",
-      "title": "RFP AI - Multi-Agent AI Platform for RFP Automation",
-      "authority": "Not available",
+      "contract_id": "/",
+      "title": "Tender Notice: Supply of IT Hardware and Cabling - MMRDA",
+      "authority": "(MMRDA) Notice Inviting Tender (NIT) Tender No / Contract ID MMRDA/IT/2025/042 Name of Work Supply, Installation, and Commissioning of IT Infrastructure for New Metro Line 4 Offices Authority / Organization MMRDA IT Division Bid Submission Start Date 2025-01-15 Bid Submission End Date 2025-02-28 Estimated Cost ₹ 2,50,00,000 Scope of Work The MMRDA invites sealed bids from eligible bidders for the supply of the following items",
       "category": "Not available",
       "bid_dates": {
-        "start": "Not available",
-        "end": "Not available"
+        "start": "2025-01-15",
+        "end": "2025-02-28"
       }
     },
     "technical_summary": {
-      "overall_match_percent": "0%",
-      "matched_skus": []
+      "overall_match_percent": "50%",
+      "matched_skus": [
+        {
+          "item": "Laptop",
+          "matched_sku": "NB-PRO-14",
+          "sku_name": "ProBook 14 G9",
+          "match_percent": "70%",
+          "quantity": 7
+        },
+        {
+          "item": "Cable",
+          "matched_sku": "Not available",
+          "match_percent": "0%"
+        },
+        {
+          "item": "Office 365",
+          "matched_sku": "SW-OFF-ENT",
+          "sku_name": "Office 365 Enterprise E3",
+          "match_percent": "90%",
+          "quantity": 3
+        },
+        {
+          "item": "Switch",
+          "matched_sku": "Not available",
+          "match_percent": "0%"
+        }
+      ]
     },
     "pricing_summary": {
-      "total_cost": "0.00",
+      "total_cost": "802341.00",
       "currency": "INR",
-      "breakdown": []
+      "breakdown": [
+        {
+          "sku": "NB-PRO-14",
+          "unit_cost": "72500.00",
+          "profit_margin": "14500.00",
+          "tax": "15660.00",
+          "final_unit_price": "102660.00",
+          "quantity": 7,
+          "line_total": "718620.00"
+        },
+        {
+          "sku": "SW-OFF-ENT",
+          "unit_cost": "21500.00",
+          "profit_margin": "2150.00",
+          "tax": "4257.00",
+          "final_unit_price": "27907.00",
+          "quantity": 3,
+          "line_total": "83721.00"
+        }
+      ]
     },
-    "final_document_text": "# RFP Response: RFP AI - Multi-Agent AI Platform for RFP Automation\n**Contract ID:** Not available\n**Authority:** Not available\n**Date:** 2025-11-29\n\n## Executive Summary\nWe are pleased to submit our proposal. We have achieved a 0% technical match for your requirements.\n\n## Technical & Commercial Breakdown\n| Item | SKU | Qty | Unit Price | Total |\n|---|---|---|---|---|\n\n**Grand Total:** ₹0.00"
+    "final_document_text": "# RFP Response: Tender Notice: Supply of IT Hardware and Cabling - MMRDA\n**Contract ID:** /\n**Authority:** (MMRDA) Notice Inviting Tender (NIT) Tender No / Contract ID MMRDA/IT/2025/042 Name of Work Supply, Installation, and Commissioning of IT Infrastructure for New Metro Line 4 Offices Authority / Organization MMRDA IT Division Bid Submission Start Date 2025-01-15 Bid Submission End Date 2025-02-28 Estimated Cost ₹ 2,50,00,000 Scope of Work The MMRDA invites sealed bids from eligible bidders for the supply of the following items\n**Date:** 2025-11-29\n\n## Executive Summary\nWe are pleased to submit our proposal. We have achieved a 50% technical match for your requirements.\n\n## Technical & Commercial Breakdown\n| Item | SKU | Qty | Unit Price | Total |\n|---|---|---|---|---|\n| Laptop | NB-PRO-14 | 7 | ₹102660.00 | ₹718620.00 |\n| Office 365 | SW-OFF-ENT | 3 | ₹27907.00 | ₹83721.00 |\n\n**Grand Total:** ₹802341.00"
   }
 }

@@ -4,12 +4,11 @@ import datetime
 import requests
 from bs4 import BeautifulSoup
 import re
+import database  # Import the new database module
 
 # --- Configuration ---
 DATA_DIR = "data"
 OUTPUT_DIR = "outputs/test_run"
-INVENTORY_FILE = os.path.join(DATA_DIR, "inventory.json")
-PRICING_FILE = os.path.join(DATA_DIR, "pricing_rules.json")
 
 # Ensure output directory exists
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -20,10 +19,6 @@ def save_json(filename, data):
     with open(path, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
     print(f"Saved: {path}")
-
-def load_json(path):
-    with open(path, 'r', encoding='utf-8') as f:
-        return json.load(f)
 
 # --- Agents ---
 
@@ -119,7 +114,8 @@ class SalesAgent:
 class TechnicalAgent:
     def process(self, sales_data):
         print("[Technical Agent] Matching SKUs...")
-        inventory = load_json(INVENTORY_FILE)
+        # DATABASE CALL: Get inventory from SQLite
+        inventory = database.get_inventory()
         
         matched_skus = []
         total_items = len(sales_data.get("items", []))
@@ -173,8 +169,10 @@ class TechnicalAgent:
 class PricingAgent:
     def process(self, tech_data):
         print("[Pricing Agent] Calculating pricing...")
-        rules = load_json(PRICING_FILE)
-        inventory = {item['sku']: item for item in load_json(INVENTORY_FILE)}
+        # DATABASE CALL: Get rules and inventory from SQLite
+        rules = database.get_pricing_rules()
+        inventory_list = database.get_inventory()
+        inventory = {item['sku']: item for item in inventory_list}
         
         breakdown = []
         total_cost = 0.0
@@ -281,6 +279,9 @@ class Orchestrator:
         step4 = self.master.process(step1, step2, step3)
         save_json("step4_master.json", step4)
         
+        # DATABASE CALL: Save full request to SQLite
+        database.save_rfp_request(url, step1, step2, step3, step4)
+        
         # Save Markdown for easy reading
         with open(os.path.join(OUTPUT_DIR, "final_proposal.md"), 'w', encoding='utf-8') as f:
             f.write(step4["final_response"]["final_document_text"])
@@ -301,5 +302,6 @@ class Orchestrator:
 
 if __name__ == "__main__":
     # Test with a dummy URL or text if run directly
+    database.initialize_db() # Ensure DB is ready for test
     orch = Orchestrator()
     orch.run("https://example.com/tender/office-supplies") # Will likely fail scraping but test flow

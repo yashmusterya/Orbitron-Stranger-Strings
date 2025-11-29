@@ -1,15 +1,36 @@
 {
   "rfp_metadata": {
-    "contract_id": "Not available",
-    "title": "RFP AI - Multi-Agent AI Platform for RFP Automation",
-    "authority": "Not available",
+    "contract_id": "/",
+    "title": "Tender Notice: Supply of IT Hardware and Cabling - MMRDA",
+    "authority": "(MMRDA) Notice Inviting Tender (NIT) Tender No / Contract ID MMRDA/IT/2025/042 Name of Work Supply, Installation, and Commissioning of IT Infrastructure for New Metro Line 4 Offices Authority / Organization MMRDA IT Division Bid Submission Start Date 2025-01-15 Bid Submission End Date 2025-02-28 Estimated Cost ₹ 2,50,00,000 Scope of Work The MMRDA invites sealed bids from eligible bidders for the supply of the following items",
     "category": "Not available",
     "bid_dates": {
-      "start": "Not available",
-      "end": "Not available"
+      "start": "2025-01-15",
+      "end": "2025-02-28"
     }
   },
-  "items": [],
+  "items": [
+    {
+      "name": "Laptop",
+      "quantity": 7,
+      "description": "Detected Laptop in text"
+    },
+    {
+      "name": "Cable",
+      "quantity": 95,
+      "description": "Detected Cable in text"
+    },
+    {
+      "name": "Office 365",
+      "quantity": 3,
+      "description": "Detected Office 365 in text"
+    },
+    {
+      "name": "Switch",
+      "quantity": 24,
+      "description": "Detected Switch in text"
+    }
+  ],
   "financials": {},
   "delivery_terms": "Not available",
   "documents": []
